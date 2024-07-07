@@ -23,8 +23,8 @@
     "noFallthroughCasesInSwitch": true,
     "noEmitOnError": false,
     "noErrorTruncation": false,
-    "allowJs": false,
-    "checkJs": false,
+    "allowJs": true,
+    "checkJs": true,
     "forceConsistentCasingInFileNames": true,
     "stripInternal": true,
     "noImplicitAny": true,
@@ -36,11 +36,6 @@
     "module": "NodeNext",
     "incremental": true,
     "removeComments": false,
-    "types": [],
-    "plugins": [
-      {
-        "name": "typescript-eslint-language-service"
-      }
-    ]
+    "types": []
   }
 }
