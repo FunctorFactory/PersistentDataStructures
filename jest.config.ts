@@ -9,6 +9,7 @@ const swcConfig: SwcConfig = {
     baseUrl: './',
     paths: {
       '@/LinkedList.js': ['src/LinkedList.ts'],
+      '@/BinarySearchTree.js': ['src/BinarySearchTree.ts'],
     },
     target: 'esnext',
   },
